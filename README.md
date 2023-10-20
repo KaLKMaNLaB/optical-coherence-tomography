@@ -1,5 +1,5 @@
 # OCT-data-processing
-This repository contains a description of the OCT operating procedures, Python scripts for OCT data processing, and an introduction to the research practicum (TN2952P).
+This repository contains a description of the OCT operating procedures, Python scripts for OCT data processing, software for OCT simulations, and an introduction to the research practicum (TN2952P).
 
 # Quick manual OCT setup Ganymede II at ImPhys TUDelft
 
