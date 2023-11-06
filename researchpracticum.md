@@ -22,7 +22,7 @@ For this RP you will use the [Ganymede](https://www.thorlabs.com/newgrouppage9.c
 
 ### Getting started
 
-1. Download the material from the Gitlab [https://gitlab.tudelft.nl/jeroenkalkman/optical-coherence-tomography.git](Gitlab) repository.
+1. Download the material from the Gitlab [https://github.com/KaLKMaNLaB/optical-coherence-tomography](Github) repository.
 2. Read the `readme.md` file and perform your measurements.
 3. Login to the OCT computer with your netid and password.
 4. Turn on the OCT system 
@@ -51,7 +51,7 @@ It is also much appreciated that you come up with you own research idea. You can
 
 
 ### Analyzing the data
-The data you acquire with the OCT software is stored in a `.oct` file format. These files can be analyzed using Python `.py` files that are available to you via the [Git](https://gitlab.tudelft.nl/jeroenkalkman/optical-coherence-tomography.git) repository. Familiarize yourself with the basic processing steps that are being performed, but get lost in all the details. Use the scripts to perform the basic processing and subsequently make your own code to perform the processing that you require.
+The data you acquire with the OCT software is stored in a `.oct` file format. These files can be analyzed using Python `.py` files that are available to you via the [Git](https://github.tudelft.nl/jeroenkalkman/optical-coherence-tomography.git) repository. Familiarize yourself with the basic processing steps that are being performed, but get lost in all the details. Use the scripts to perform the basic processing and subsequently make your own code to perform the processing that you require.
 
 Also in the repository there is a `readme.md` file that gets you started with the Thorimage software and the measurements. 
 
