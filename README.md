@@ -10,7 +10,7 @@ For a more in depth description of the software we refer to the software and har
 ## Getting started
 When the computer has started you can switch the power button on the base station and start the Thorlabs software. 
 
-1 Set folder where your files will be saved to Go to File->settings and set both Dataset Folder and Export Folder to a personal folder. Preferably you make a subfolder in C:\OCTData\’your name’ and then possibly a subfolder named to the date or the experiment type.
+1 Set folder where your files will be saved to Go to File->settings and set both Dataset Folder and Export Folder to a personal folder. Preferably you make a subfolder in C:\OCTData\’your name’ and then possibly a subfolder named to the date or the experiment type. Set the saved data to raw spectral data. 
 
 2 Adjust reference arm intensity
 In the 2D scan mode: tune the aperture in the reference arm until the reference intensity indicator (see figure) turns green. 
