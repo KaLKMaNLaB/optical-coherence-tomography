@@ -63,7 +63,7 @@ Only perform this operation under guidance of an experienced OCT user.
 * Save the lens calibration with date (month, year) to avoid using out-dated calibration.
 * The system is ready to use
 
-The description of the OCT scan head is in <a href=https://www.thorlabs.com/thorproduct.cfm?partnumber=OCTP-900>OCTP-900 - User-Customizable Scanner for 880 nm, 900 nm, or 930 nm SD-OCT Systems, Imperial ></a>
+The description of the OCT scan head is in <a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=OCTP-900">OCTP-900 - User-Customizable Scanner for 880 nm, 900 nm, or 930 nm SD-OCT Systems, Imperial ></a>
 
 ## Fun OCT facts
 * use advanced snapshot for B-scans with proper timing at the linerate specified in the settings (snapshot is not well timed)
