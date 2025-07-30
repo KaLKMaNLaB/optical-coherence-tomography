@@ -38,14 +38,35 @@ For more information go to the official manual at: C:\Program Files\Thorlabs\Tho
 ## Python modules
 Two modules are written in python to read and process OCT data obtained with the Thorlabs software. 
 
-1	ReadOCTfile: this module can be used to extract the raw data and metadata of the experiment from the .oct files.
+1.	ReadOCTfile: this module can be used to extract the raw data and metadata of the experiment from the .oct files.
 
-2	DataProcessingOCT: this module contains functions for calculating A-scans and B-scans as well as extracting information like axial resolution and SNR from the data. It also contains functions to correct for dispersion.
+2.	DataProcessingOCT: this module contains functions for calculating A-scans and B-scans as well as extracting information like axial resolution and SNR from the data. It also contains functions to correct for dispersion.
+
+3. All processing code is incorporated in a single notebook _ThorlabsDataprocessing.ipynb_
 
 The use of these modules is shown in the demos for 2D and 3D scans, for which a typical data file is included in the folder data. The file Chirp contains the chirp correction parameters for the spectrometer in the Ganymede II device. 
 
-The python modules can be found at the QI group server: M:\tnw\ist\qi\users\jdewit\OCTsetup\Python_OCTprocessing as well as on the lab computer at: C:\OCTsoftware\Python_OCTprocessing
+## Replacing a scan lens
+Only perform this operation under guidance of an experienced OCT user.
+* Remove the light guidance tube (4 screws in the corners)
+* Screw off the objective/scan lens (careful to not let it fall or touch the glass)
+* Screw the new scan lens in the place
+* Put the corresponding light guidance ring around it and fix with screws
+* Shift off the top cage plate with mirror from the reference arm
+* Remove the dispersion compensation glass, push in the new one (if it is hard to pull it out, you can unscrew the small holder and then push it out)
+* Depending on the change add/remove the tube extension in the reference arm. 
+* For the LS02 (high NA/resolution) no extension tube should be used, the reference arm should be small/ for the LS04 the extension tube is needed and the reference arm length should be longer
+* Shift the cage plate with reference mirror back on the setup, keep it free shifting to quickly adjust reference length.
+* Open the ThorImage software as administrator (needed to save lens calibration)
+* Find the focus depth and make sure (in B-scan mode) that the reference arm length is not too far from focus; also make sure the reference arm intensity is good.
+* then use the calibration card and run the lens calibration in settings. Go through it step by step.
+* Save the lens calibration with date (month, year) to avoid using out-dated calibration.
+* The system is ready to use
+
+The description of the OCT scan head is in <a href=https://www.thorlabs.com/thorproduct.cfm?partnumber=OCTP-900>OCTP-900 - User-Customizable Scanner for 880 nm, 900 nm, or 930 nm SD-OCT Systems, Imperial ></a>
 
 ## Fun OCT facts
 * use advanced snapshot for B-scans with proper timing at the linerate specified in the settings (snapshot is not well timed)
 * disable B-scan size limit in the settings when you want to acquire more than 10000 A-lines in a B-scan.
+
+
